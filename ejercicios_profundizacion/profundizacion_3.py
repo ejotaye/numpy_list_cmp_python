@@ -62,5 +62,7 @@ if __name__ == '__main__':
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
 
+    lista_compra_produc = [producto[x] for x in producto if x.get(x)]
+    # me podrian orientar un poco en este ejercicio? gracias, saludos profe
 
     print("terminamos")

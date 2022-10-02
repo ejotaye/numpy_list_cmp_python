@@ -28,9 +28,20 @@ que ya dispongamos de Python. El objetivo es:
     b) Si el número es mayor a 21 se debe informar al usuario que perdio
 '''
 
+import random
+
 if __name__ == '__main__':
     print('Comenzamos a divertirnos!')
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
+
+    numeros = [random.randint(1,10) for x in range(3)] 
+    suma = sum(numeros)
+
+    if suma <= 21:
+        print('La suma de los númmeros:', numeros, 'es:', suma)
+    else:
+        print('La suma es mayor a 21, has perdido. ¡Lo Siento!')
+
 
     print("terminamos")
